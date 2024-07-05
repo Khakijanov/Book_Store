@@ -6,8 +6,8 @@ import { styles } from '../../style'
 function Navbar() {
   return (
     <div>
-     <div className={`${styles.container} ${styles.paddingX}`}>
-        <div className="navbar flex items-center justify-between  ">
+     <div className={`container`}>
+        <div className={`navbar flex items-center justify-between `}>
   <div className="navbar-start sm:w-[30%] w-[40%] ">
     
     <a className="btn btn-ghost text-xl px-0 w-12 h-12 rounded-full overflow-hidden">
